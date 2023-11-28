@@ -1,0 +1,257 @@
+<tileset>
+    <tile name="northBorder">
+        <neighbor name="floor" directions=""/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions="south"/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions=""/>
+        <neighbor name="solidWallHoriz" directions="south"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions="south"/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions=""/>
+        <neighbor name="windowWallHoriz" directions="south"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="eastBorder">
+        <neighbor name="floor" directions=""/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions=""/>
+        <neighbor name="solidWallHoriz" directions=""/>
+        <neighbor name="solidWallVert" directions="west"/>
+        <neighbor name="t" directions=""/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions=""/>
+        <neighbor name="windowWallHoriz" directions=""/>
+        <neighbor name="windowWallVert" directions="west"/>
+    </tile>
+    <tile name="southBorder">
+        <neighbor name="floor" directions=""/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions="north"/>
+        <neighbor name="smallColumn" directions=""/>
+        <neighbor name="solidWallHoriz" directions="north"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions="north"/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions=""/>
+        <neighbor name="windowWallHoriz" directions="north"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="westBorder">
+        <neighbor name="floor" directions=""/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions=""/>
+        <neighbor name="solidWallHoriz" directions=""/>
+        <neighbor name="solidWallVert" directions="east"/>
+        <neighbor name="t" directions=""/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions=""/>
+        <neighbor name="windowWallHoriz" directions=""/>
+        <neighbor name="windowWallVert" directions="east"/>
+    </tile>
+    <tile name="floor">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="north east"/>
+        <neighbor name="bottomRightCorner" directions="north west"/>
+        <neighbor name="columnWallHoriz" directions="north south"/>
+        <neighbor name="columnWallHorizSouth" directions="north south"/>
+        <neighbor name="smallColumn" directions="north east south west"/>
+        <neighbor name="solidWallHoriz" directions="north south"/>
+        <neighbor name="solidWallVert" directions="east west"/>
+        <neighbor name="t" directions="north south"/>
+        <neighbor name="topLeftCorner" directions="east south"/>
+        <neighbor name="topRightCorner" directions="south west"/>
+        <neighbor name="windowWallHoriz" directions="north south"/>
+        <neighbor name="windowWallVert" directions="east west"/>
+    </tile>
+    <tile name="bottomLeftCorner">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions="east"/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions="east"/>
+        <neighbor name="smallColumn" directions="south west"/>
+        <neighbor name="solidWallHoriz" directions="east"/>
+        <neighbor name="solidWallVert" directions="north"/>
+        <neighbor name="t" directions="east"/>
+        <neighbor name="topLeftCorner" directions="north"/>
+        <neighbor name="topRightCorner" directions="north"/>
+        <neighbor name="windowWallHoriz" directions="east"/>
+        <neighbor name="windowWallVert" directions="north"/>
+    </tile>
+    <tile name="bottomRightCorner">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="west"/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions="west"/>
+        <neighbor name="smallColumn" directions="east south"/>
+        <neighbor name="solidWallHoriz" directions="west"/>
+        <neighbor name="solidWallVert" directions="north"/>
+        <neighbor name="t" directions="west"/>
+        <neighbor name="topLeftCorner" directions="north"/>
+        <neighbor name="topRightCorner" directions="north"/>
+        <neighbor name="windowWallHoriz" directions="west"/>
+        <neighbor name="windowWallVert" directions="north"/>
+    </tile>
+    <tile name="columnWallHoriz">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions="east west"/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions="north south"/>
+        <neighbor name="solidWallHoriz" directions="east west"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions="east west"/>
+        <neighbor name="topLeftCorner" directions="north"/>
+        <neighbor name="topRightCorner" directions="north"/>
+        <neighbor name="windowWallHoriz" directions="east west"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="columnWallHorizSouth">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="west"/>
+        <neighbor name="bottomRightCorner" directions="east"/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions="east west"/>
+        <neighbor name="smallColumn" directions="north south"/>
+        <neighbor name="solidWallHoriz" directions="east west"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions=""/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions=""/>
+        <neighbor name="windowWallHoriz" directions="east west"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="smallColumn">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="north east"/>
+        <neighbor name="bottomRightCorner" directions="north west"/>
+        <neighbor name="columnWallHoriz" directions="north south"/>
+        <neighbor name="columnWallHorizSouth" directions="north south"/>
+        <neighbor name="smallColumn" directions="north east south west"/>
+        <neighbor name="solidWallHoriz" directions="north south"/>
+        <neighbor name="solidWallVert" directions="east west"/>
+        <neighbor name="t" directions="north south"/>
+        <neighbor name="topLeftCorner" directions="east south"/>
+        <neighbor name="topRightCorner" directions="south west"/>
+        <neighbor name="windowWallHoriz" directions="north south"/>
+        <neighbor name="windowWallVert" directions="east west"/>
+    </tile>
+    <tile name="solidWallHoriz">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="west"/>
+        <neighbor name="bottomRightCorner" directions="east"/>
+        <neighbor name="columnWallHoriz" directions="east west"/>
+        <neighbor name="columnWallHorizSouth" directions="east west"/>
+        <neighbor name="smallColumn" directions="north south"/>
+        <neighbor name="solidWallHoriz" directions="east west"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions="east west"/>
+        <neighbor name="topLeftCorner" directions="west"/>
+        <neighbor name="topRightCorner" directions="west"/>
+        <neighbor name="windowWallHoriz" directions="east west"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="windowWallHoriz">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="west"/>
+        <neighbor name="bottomRightCorner" directions="east"/>
+        <neighbor name="columnWallHoriz" directions="east west"/>
+        <neighbor name="columnWallHorizSouth" directions="east west"/>
+        <neighbor name="smallColumn" directions="north south"/>
+        <neighbor name="solidWallHoriz" directions="east west"/>
+        <neighbor name="solidWallVert" directions=""/>
+        <neighbor name="t" directions="east west"/>
+        <neighbor name="topLeftCorner" directions="west"/>
+        <neighbor name="topRightCorner" directions="west"/>
+        <neighbor name="windowWallHoriz" directions="east west"/>
+        <neighbor name="windowWallVert" directions=""/>
+    </tile>
+    <tile name="solidWallVert">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="south"/>
+        <neighbor name="bottomRightCorner" directions="south"/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions="east west"/>
+        <neighbor name="solidWallHoriz" directions=""/>
+        <neighbor name="solidWallVert" directions="north south"/>
+        <neighbor name="t" directions="north"/>
+        <neighbor name="topLeftCorner" directions="north"/>
+        <neighbor name="topRightCorner" directions="north"/>
+        <neighbor name="windowWallHoriz" directions=""/>
+        <neighbor name="windowWallVert" directions="north south"/>
+    </tile>
+    <tile name="windowWallVert">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="south"/>
+        <neighbor name="bottomRightCorner" directions="south"/>
+        <neighbor name="columnWallHoriz" directions=""/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions="east west"/>
+        <neighbor name="solidWallHoriz" directions=""/>
+        <neighbor name="solidWallVert" directions="north south"/>
+        <neighbor name="t" directions="north"/>
+        <neighbor name="topLeftCorner" directions="north"/>
+        <neighbor name="topRightCorner" directions="north"/>
+        <neighbor name="windowWallHoriz" directions=""/>
+        <neighbor name="windowWallVert" directions="north south"/>
+    </tile>
+    <tile name="t">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions=""/>
+        <neighbor name="bottomRightCorner" directions=""/>
+        <neighbor name="columnWallHoriz" directions="east west"/>
+        <neighbor name="columnWallHorizSouth" directions="east west"/>
+        <neighbor name="smallColumn" directions="north south"/>
+        <neighbor name="solidWallHoriz" directions="east west"/>
+        <neighbor name="solidWallVert" directions="south"/>
+        <neighbor name="t" directions="east west"/>
+        <neighbor name="topLeftCorner" directions="west"/>
+        <neighbor name="topRightCorner" directions="east"/>
+        <neighbor name="windowWallHoriz" directions="east west"/>
+        <neighbor name="windowWallVert" directions="south"/>
+    </tile>
+    <tile name="topLeftCorner">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="south"/>
+        <neighbor name="bottomRightCorner" directions="south"/>
+        <neighbor name="columnWallHoriz" directions="east"/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions="north west"/>
+        <neighbor name="solidWallHoriz" directions="east"/>
+        <neighbor name="solidWallVert" directions="south"/>
+        <neighbor name="t" directions="east"/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions="east"/>
+        <neighbor name="windowWallHoriz" directions="east"/>
+        <neighbor name="windowWallVert" directions="south"/>
+    </tile>
+    <tile name="topRightCorner">
+        <neighbor name="floor" directions="north east south west"/>
+        <neighbor name="bottomLeftCorner" directions="south"/>
+        <neighbor name="bottomRightCorner" directions="south"/>
+        <neighbor name="columnWallHoriz" directions="west"/>
+        <neighbor name="columnWallHorizSouth" directions=""/>
+        <neighbor name="smallColumn" directions="north east"/>
+        <neighbor name="solidWallHoriz" directions="west"/>
+        <neighbor name="solidWallVert" directions="south"/>
+        <neighbor name="t" directions="west"/>
+        <neighbor name="topLeftCorner" directions=""/>
+        <neighbor name="topRightCorner" directions="west"/>
+        <neighbor name="windowWallHoriz" directions="west"/>
+        <neighbor name="windowWallVert" directions="south"/>
+    </tile>
+</tileset>
